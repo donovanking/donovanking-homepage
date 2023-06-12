@@ -4,8 +4,8 @@ import {
 } from 'react-icons/io5'
 import { GridItem } from '../components/grid-item'
 import { Container, Deading, Box, Heading, useColorModeValue, Link, List, ListItem, Button, Icon, SimpleGrid } from '@chakra-ui/react'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
+import Layout from '../components/layouts/article.js'
+import Section from '../../components/section.js'
 
 const Links = () => (
     <Layout title="Links">

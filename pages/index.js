@@ -1,11 +1,11 @@
 import NextLink from 'next/link'
 import { Container, Box, Heading, useColorModeValue, Link, Button } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import Paragraph from '../components/paragraph'
+import Layout from '../components/layouts/article.js'
+import Section from '../../components/section.js'
+import Paragraph from '../components/paragraph.js'
 import Image from 'next/image'
-import { BioSection, BioYear } from '../components/bio'
+import { BioSection, BioYear } from '../components/bio.js'
 
 const Page = () => {
     return (
