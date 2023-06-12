@@ -5,7 +5,7 @@ import {
 import { GridItem } from '../components/grid-item'
 import { Container, Deading, Box, Heading, useColorModeValue, Link, List, ListItem, Button, Icon, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article.js'
-import Section from '../../components/section.js'
+import Section from 'donovanking-homepage/components/section.js'
 
 const Links = () => (
     <Layout title="Links">

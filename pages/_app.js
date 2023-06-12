@@ -1,6 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/layouts/main.js'
-import Fonts from '../../components/fonts.js'
+import Fonts from 'donovanking-homepage/components/fonts.js'
 import theme from '../lib/theme.js'
 import { AnimatePresence } from 'framer-motion'
 
