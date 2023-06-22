@@ -25,7 +25,7 @@ const Logo = () => {
         <Link href="/" passHref>
             <Box>
                 <LogoBox>
-                    <Image src='/image/footprint.png' width={20} height={20} alt="logo" />
+                    <Image src='/image/DK.png' width={30} height={30} alt="logo" />
                     <Text
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                     fontFamily='M PLUS Rounded 1c'

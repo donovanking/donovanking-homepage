@@ -11,7 +11,7 @@ const Page = () => {
     return (
         <Layout>
             <Container>
-                <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+                <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mt={3} mb={6} align="center">
                     Hello, I&apos;m an undergraduate student at Boston College!
                 </Box>
 
@@ -40,7 +40,7 @@ const Page = () => {
                             <Image
                                 width={100}
                                 height={100}
-                                src="/image/selfie.jpeg"
+                                src="/image/logo.jpeg"
                                 alt="Profile Image"
                             />
                         </Box>
@@ -67,6 +67,14 @@ const Page = () => {
                     <BioSection>
                         <BioYear>2002</BioYear>
                         Born in New Mexico, United States.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2020</BioYear>
+                        Completed High School at William Penn with a 4.0 GPA and 6 AP courses my senior year.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>2023</BioYear>
+                        Launched a website company called D&D Web with Derrick Fuller.
                     </BioSection>
                     <BioSection>
                         <BioYear>2024</BioYear>

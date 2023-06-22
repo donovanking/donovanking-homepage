@@ -24,11 +24,6 @@ const Works = () => {
                             Software Engineering group project.
                         </WorkGridItem>
                     </Section>
-                    <Section>
-                        <WorkGridItem id="DuyIsDrawing" title="DuyIsDrawing" thumbnail={'/image/EagleHire.png'}>
-                            A personal project that I made for a friend who makes art. 
-                        </WorkGridItem>
-                    </Section>
                 </SimpleGrid>
             </Container>
         </Layout>

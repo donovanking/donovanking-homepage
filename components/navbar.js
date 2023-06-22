@@ -37,6 +37,7 @@ const LinkItem = ({ href, path, children }) => {
 
 const Navbar = props => {
     const { path } = props
+    const textColor = useColorModeValue("black", "white")
     return (
         <Box
             position="fixed"
@@ -69,40 +70,45 @@ const Navbar = props => {
                     mt={{ base: 4, md: 0 }}
                 >
                     <LinkItem href="/works" path={path}>
-                        Works
+                        <Heading as="h1" fontSize={18} mb={1} mt={1} color={textColor}>
+                            Works
+                        </Heading>
                     </LinkItem>
-                    <LinkItem href="/posts" path={path}>
-                        Posts
+                    <LinkItem href="/links" path={path}>
+                        <Heading as="h1" fontSize={18} mb={1} mt={1} color={textColor}>
+                            Contact Me
+                        </Heading>
                     </LinkItem>
-
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
                         <Menu>
-                            <MenuButton 
-                                as={IconButton} 
-                                icon={<HamburgerIcon />} 
-                                variant="outline" 
+                            <MenuButton
+                                as={IconButton}
+                                icon={<HamburgerIcon />}
+                                variant="outline"
                                 aria-label="Options"
-                            >                                
+                            >
                             </MenuButton>
                             <MenuList>
-                                <NextLink href="/" passHref>
-                                    <MenuItem>
-                                        About
-                                    </MenuItem>
-                                </NextLink>
-                                <NextLink href="/works" passHref>
-                                    <MenuItem>
-                                        Works
-                                    </MenuItem>
-                                </NextLink>
-                                <NextLink href="/links" passHref>
-                                    <MenuItem>
-                                        Links
-                                    </MenuItem>
-                                </NextLink>
+                                <Heading as="h1" fontSize={18} mb={1} mt={1}>
+                                    <NextLink href="/" passHref>
+                                        <MenuItem>
+                                            About
+                                        </MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/works" passHref>
+                                        <MenuItem>
+                                            Works
+                                        </MenuItem>
+                                    </NextLink>
+                                    <NextLink href="/links" passHref>
+                                        <MenuItem>
+                                            Contact Me
+                                        </MenuItem>
+                                    </NextLink>
+                                </Heading>
                             </MenuList>
                         </Menu>
                     </Box>
