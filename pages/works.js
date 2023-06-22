@@ -9,11 +9,11 @@ const Works = () => {
     return (
         <Layout>
             <Container>
-                <Heading as="h3" fontSize={25} mb={6}>
+                <Heading as="h3" fontSize={25} mb={6} mt={3}>
                     Works
                 </Heading>
 
-                <SimpleGrid columns={[1, 1, 2]} gap={7}>
+                <SimpleGrid columns={[1, 1, 1]} gap={7}>
                     <Section>
                         <WorkGridItem id="DDWeb" title="DDWeb" thumbnail={'/image/D&DWeb.png'}>
                             A website launching and maintenance service.

@@ -1,10 +1,12 @@
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, Box, useColorModeValue } from '@chakra-ui/react'
 import Layout from '../components/layouts/main.js'
 import Fonts from '../components/fonts.js'
 import theme from '../lib/theme.js'
 import { AnimatePresence } from 'framer-motion'
 
 function Website({ Component, pageProps, router }) {
+    const bgColor = useColorModeValue("lightBackgroundColor", "darkBackgroundColor");
+
     return (
         <ChakraProvider theme={theme}>
             <Fonts />

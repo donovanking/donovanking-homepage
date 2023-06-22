@@ -24,8 +24,8 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     <NextLink href={`/works/${id}`} passHref>
         <Box w="100%" align="center" cursor="pointer">
             <Image src={thumbnail}
-                width={500}
-                height={300} 
+                width={750}
+                height={500} 
                 alt={title} 
                 className="grid-item-thumbail" 
                 objectFit="cover" 

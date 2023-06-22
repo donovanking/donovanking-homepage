@@ -17,21 +17,21 @@ const Links = () => (
                 <List>
                     <ListItem>
                         <Link href="https://github.com/donovanking" target="_blank">
-                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
+                            <Button variant="ghost" leftIcon={<Icon as={IoLogoGithub} />}>
                                 @donovanking_
                             </Button>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link href="https://www.instagram.com/donovanking_/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoInstagram} />}>
+                            <Button variant="ghost" leftIcon={<Icon as={IoLogoInstagram} />}>
                                 @donovanking_
                             </Button>
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Link href="https://www.linkedin.com/in/donovan-king-7a820818a/" target="_blank">
-                            <Button variant="ghost" colorScheme="teal">
+                            <Button variant="ghost">
                                 LinkedIn
                             </Button>
                         </Link>
